@@ -1,0 +1,11 @@
+# 编译出来的产物，不上传github
+*.exe
+*.o
+*.obj
+*.dll
+
+# vscode本地配置文件夹，不上传
+.vscode/
+
+# 临时文件
+*.txt~
