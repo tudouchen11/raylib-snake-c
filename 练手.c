@@ -81,7 +81,7 @@ void UpdateSnake(GameData* game) {
     // 吃到食物
     if (game->snake.x[0] == game->foodX && game->snake.y[0] == game->foodY) {
         game->snake.len++;
-        game->score += 100;
+        game->score += 1;
         SpawnFood(game);
     }
     // WASD控制方向
